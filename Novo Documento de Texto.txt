@@ -1,0 +1,4 @@
+expo init OrgsCesta
+
+cd OrgsCesta
+npm start # you can also use: expo start
