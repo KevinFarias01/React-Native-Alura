@@ -2,13 +2,14 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-import Cesta from '../src/telas/Cesta';
+import './src/telas/Cesta';
+import Cesta from './src/telas/Cesta';
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>É foda.....</Text>
+      <Cesta />
       <StatusBar style="auto" />
     </View>
   );
